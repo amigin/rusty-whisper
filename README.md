@@ -1,6 +1,7 @@
-# Fork from: https://github.com/igor-yusupov/rusty-whisper
-# Original author: Igor Yusupov
-# Original license: MIT
+## Fork from: 
+https://github.com/igor-yusupov/rusty-whisper
+Original author: Igor Yusupov
+Original license: MIT
 Versions are updated to the latest ones.
 
 # rusty-whisper
