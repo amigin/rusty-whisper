@@ -1,0 +1,33 @@
+[package]
+name = "rusty-whisper"
+version = "0.1.3"
+edition = "2021"
+license = "MIT"
+authors = ["Igor Yusupov"]
+readme = "README.md"
+keywords = [
+    "deep-learning",
+    "machine-learning",
+    "speech-recognition",
+    "whisper",
+]
+description = "Rust implementation of Whisper"
+repository = "https://github.com/igor-yusupov/rusty-whisper/"
+
+exclude = ["data/*", "weights/*"]
+
+[lib]
+name = "rusty_whisper"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[dependencies]
+base64 = "0.22"
+hound = "3.5.1"
+ndarray = "0.16"
+ndarray-npy = "0.9"
+rayon = "1.8.0"
+rustc-hash = "1.1"
+rustfft = "6.1"
+tiktoken-rs = "0.7"
+tract-onnx = "0.21"
