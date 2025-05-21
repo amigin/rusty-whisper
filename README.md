@@ -1,3 +1,8 @@
+# Fork from: https://github.com/igor-yusupov/rusty-whisper
+# Original author: Igor Yusupov
+# Original license: MIT
+Versions are updated to the latest ones.
+
 # rusty-whisper
 
 Rust implementation of Whisper. More information about model: https://github.com/openai/whisper
